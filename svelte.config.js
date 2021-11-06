@@ -1,4 +1,5 @@
 /** @type {import('@sveltejs/kit').Config} */
+import image from '@rollup/plugin-image';
 import path from 'path';
 import autoPreprocess from 'svelte-preprocess';
 
@@ -15,6 +16,7 @@ const config = {
 			}
 		}
 	},
+	plugins: [image()],
 	preprocess: autoPreprocess()
 };
 
