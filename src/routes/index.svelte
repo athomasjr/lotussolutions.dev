@@ -1,8 +1,6 @@
 <script context="module">
+	import Services from '$lib/components/Services.svelte';
 	export const prerender = true;
-</script>
-
-<script>
 </script>
 
 <svelte:head>
@@ -10,7 +8,10 @@
 </svelte:head>
 
 <section>
-<h1>Hi world</h1>
+	<h1>Hi world</h1>
+</section>
+<section>
+	<Services />
 </section>
 
 <style>
