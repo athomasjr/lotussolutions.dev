@@ -10,9 +10,8 @@
 <section>
 	<h1>Hi world</h1>
 </section>
-<section>
-	<Services />
-</section>
+
+<Services />
 
 <style>
 </style>
