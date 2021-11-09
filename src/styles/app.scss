@@ -1,15 +1,9 @@
 @import 'variables';
-<<<<<<< HEAD
 @import 'services';
-=======
-@import 'mixins';
->>>>>>> b197568aeb7174668e4161513e701ac4e9b3d308
 
 body {
 	min-height: 100vh;
 	margin: 0;
-	padding: 0 102px;
-	background: $bg;
 }
 
 html {
@@ -53,6 +47,4 @@ small,
 
 a {
 	text-decoration: none;
-	color: inherit;
-	font-family: $body;
 }

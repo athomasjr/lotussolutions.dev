@@ -1,6 +1,6 @@
 <script>
-	import Footer from '$components/footer/Footer.svelte';
-	import Header from '$components/header/Header.svelte';
+	import Footer from '$components/Footer.svelte';
+	import Header from '$components/Header.svelte';
 	import '$styles/app.scss';
 
 
@@ -15,5 +15,4 @@
 <Footer />
 
 <style>
-
 </style>
