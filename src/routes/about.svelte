@@ -1,12 +1,16 @@
 <script context="module">
-	import Hero from '$components/hero/Hero.svelte';
 </script>
 
 <script>
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>about</title>
 </svelte:head>
 
-<Hero/>
+<section>
+<h1>about page</h1>
+</section>
+
+<style>
+</style>

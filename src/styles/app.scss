@@ -1,8 +1,11 @@
 @import 'variables';
+@import 'mixins';
 
 body {
 	min-height: 100vh;
 	margin: 0;
+	padding: 0 102px;
+	background: $bg;
 }
 
 html {
@@ -46,4 +49,6 @@ small,
 
 a {
 	text-decoration: none;
+	color: inherit;
+	font-family: $body;
 }
