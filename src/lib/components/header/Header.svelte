@@ -32,6 +32,7 @@ color:$bg-dark;
 padding: 8px 16px;
 background: $lotus;
 border-radius: 4px;
+
 }
 
 header {

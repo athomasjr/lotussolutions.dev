@@ -13,18 +13,18 @@ $body: 'Glegoo';
 $title: 'Exo 2';
 
 //* Shadows
-$sm-dark: 0.5px 1px 1px hsl(0deg, 0%, 0% / 0.7);
-$md-dark: 1px 2px 2px hsl(0, 0%, 0%/ 0.333), 2px 4px 4px hsl(0, 0%, 0% / 0.333),
-	3px 6px 6px hsl(0, 0%, 0% / 0.333);
-$lg-dark: 1px 2px 2px hsl(0, 0%, 0% / 0.2), 2px 4px 4px hsl(0, 0%, 0%/ 0.2),
-	4px 8px 8px hsl(0, 0%, 0% / 0.2), 8px 16px 16px hsl(0, 0%, 0% / 0.2),
-	16px 32px 32px hsl(0, 0%, 0% / 0.2);
+$sm-dark: 0.5px 1px 1px hsl(240deg 8% 0%/ 0.7);
+$md-dark: 1px 2px 2px hsl(240deg 8% 0%/ 0.333), 2px 4px 4px hsl(240deg 8% 0% / 0.333),
+	3px 6px 6px hsl(240deg 8% 0% / 0.333);
+$lg-dark: 1px 2px 2px hsl(240deg 8% 0% / 0.2), 2px 4px 4px hsl(240deg 8% 0%/ 0.2),
+	4px 8px 8px hsl(240deg 8% 0% / 0.2), 8px 16px 16px hsl(240deg 8% 0% / 0.2),
+	16px 32px 32px hsl(240deg 8% 0% / 0.2);
 
-$sm-light: 0.5px 1px 1px hsl(30, 13.6%, 91.4% / 0.7);
+$sm-light: 0.5px 1px 1px hsl(30, 14%, 91% / 0.7);
 
-$md-light: 1px 2px 2px hsl(30, 13.6%, 91.4%/ 0.333), 2px 4px 4px hsl(30, 13.6%, 91.4% / 0.333),
-	3px 6px 6px hsl(30, 13.6%, 91.4% / 0.333);
+$md-light: 1px 2px 2px hsl(30, 14%, 91% / 0.333), 2px 4px 4px hsl(30, 14%, 91% / 0.333),
+	3px 6px 6px hsl(30, 14%, 91% / 0.333);
 
-$lg-light: 1px 2px 2px hsl(30, 13.6%, 91.4%/ 0.2), 2px 4px 4px hsl(30, 13.6%, 91.4% / 0.2),
-	4px 8px 8px hsl(30, 13.6%, 91.4% / 0.2), 8px 16px 16px hsl(30, 13.6%, 91.4% / 0.2),
-	16px 32px 32px hsl(30, 13.6%, 91.4% / 0.2);
+$lg-light: 1px 2px 2px hsl(30, 14%, 91% / 0.2), 2px 4px 4px hsl(30, 14%, 91% / 0.2),
+	4px 8px 8px hsl(30, 14%, 91% / 0.2), 8px 16px 16px hsl(30, 14%, 91% / 0.2),
+	16px 32px 32px hsl(30, 14%, 91% / 0.2);
