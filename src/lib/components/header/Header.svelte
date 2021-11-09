@@ -28,7 +28,7 @@ font-size:1.8rem;
 }
 
 .cta {
-color:$bg;
+color:$bg-dark;
 padding: 8px 16px;
 background: $lotus;
 border-radius: 4px;
