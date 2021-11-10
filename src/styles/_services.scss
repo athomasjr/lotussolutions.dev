@@ -1,14 +1,61 @@
 // Service page
 .services {
+	min-height: 100vh;
+	background: linear-gradient(90deg, #ece9e6 -1.11%, #ffffff 100%);
+	box-shadow: 0px 4px 4px rgba(47, 46, 56, 0.25);
 	&__container {
 		display: flex;
-		min-height: 100vh;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		background: linear-gradient(90deg, #ece9e6 -1.11%, #ffffff 100%);
-		box-shadow: 0px 4px 4px rgba(47, 46, 56, 0.25);
+	}
+	&__main {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		padding: 8px;
+		order: 0;
+	}
+	&__title {
+		font-size: 64px;
+		line-height: 75px;
+
+		/* bg3 */
+
+		color: #2f2e38;
+
+		/* Inside Auto Layout */
+
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+		margin: 24px 0px;
+	}
+	&__button {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 12px 16px;
+
+		width: 173px;
+		height: 52px;
+
+		/* FF715B */
+
+		border: 1px solid #ff715b;
+		box-sizing: border-box;
+		/* small shadow */
+
+		filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.25));
+		border-radius: 4px;
+
+		/* Inside Auto Layout */
+		order: 1;
+		margin: 0px 24px;
+		background-color: rgba(0, 0, 0, 0.25);
 	}
 }
 // service Card
@@ -27,7 +74,7 @@
 			1px 2px 2px rgba(0, 0, 0, 0.25);
 		border-radius: 4px;
 		flex: none;
-		order: 0;
+		order: 1;
 		flex-grow: 0;
 		margin: 0px 56px;
 	}
