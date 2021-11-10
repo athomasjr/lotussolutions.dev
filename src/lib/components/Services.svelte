@@ -27,7 +27,13 @@
 	];
 </script>
 
-<section>
+<section class="services">
+	<div class="services__container">
+		<div class="services__main">
+			<span class="services__title">Explore Our Services</span>
+			<button class="services__button">Explore More</button>
+		</div>
+	</div>
 	<div class="services__container">
 		{#each services as service}
 			<Service
